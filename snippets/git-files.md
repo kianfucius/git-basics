@@ -27,7 +27,7 @@ This is where things start to get problematic. Even if you've changed the conten
 
 >__Warning__: Before you proceed, ensure your teammates who work on the branch are notified. Rewriting history disrupts your teammates, and they will get an error when trying to push to the branch. They will need to re-clone the repository, or recover with [rebase](./rebase.md).
 
-Let's assume you've only pushed the error onto your feature branch. Luckily, GitHub has released an official [guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository) in their FAQ. The present the following quick steps, using the [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
+Let's assume you've only pushed the error onto your feature branch. Luckily, GitHub has released an official [guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository) in their FAQ. They present the following quick steps, using the [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
 
   1. `brew install bfg`
   2. Back up your repo `cp -r repo.git repo.git.bak`
