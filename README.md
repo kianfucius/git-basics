@@ -46,7 +46,7 @@ These are basic commdands for the Git CLI (Command Line Interface) that will get
 [`git rm`](https://git-scm.com/docs/git-rm): Removes a file from your working directory, and stages the commit. It is a convenience function that performs identically to `rm {filename} && git add {filename}` (In this case, by adding the file we record that it was removed).
 
 ## Before you read further
-This guide is only meant to serve as quick introduction to people who are new to using the Git CLI. It will by no means make you an expert, and you will likely eventually have a question that is not covered here. Linked below are some helpful links with more in-depth knowledge. This document also does not cover the Github CLI.
+This guide is only meant to serve as quick introduction to people who are new to using the Git CLI. It will by no means make you an expert, and you will likely eventually have a question that is not covered here. Linked below are some helpful links with more in-depth knowledge. This document also does not cover the Github UI.
 - [Git SCM](https://git-scm.com/docs/git): Official docs, frequently linked in this document.
 - [Atlassian](https://www.atlassian.com/git): Easy to follow.
 - [Visualizing Git](https://git-school.github.io/visualizing-git/): Visualizes your git changes.
